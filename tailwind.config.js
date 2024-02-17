@@ -14,12 +14,12 @@ module.exports = {
       "2xl": "1536px",
     },
     extend: {
-      fontFamily: {
+      fontFamily: { 
         poppins: "poppins",
         questrial: "Questrial",
       },
       colors: {
-        primary: "#FF6400",
+        primary: "#00A9FF",
         secondary: "#003049",
         secondaryOrange: "#FF8475",
         "main-bg": "#fff",
@@ -38,7 +38,7 @@ module.exports = {
     plugin(function ({ addUtilities }) {
       const newUtilities = {
         ".text-muted": {
-          opacity: 0.8,
+          opacity: 0.9,
         },
         ".transition-a": {
           transition: "all 0.3s ease-in-out",

@@ -2,11 +2,11 @@ import { FiArrowRight, FiHome } from "react-icons/fi";
 
 const Invest = () => {
   return (
-    <div className="pt-10 pb-16">
+    <div className="pt-10 pb-4">
       <div className="grid grid-cols-1 overflow-hidden rounded-lg sm:grid-cols-2 md:grid-cols-3">
         <div className="md:col-span-1">
           <img
-            src="/images/property (1).jpeg"
+            src="https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/southindia.jpg?alt=media&token=3e3ff411-bfaa-42e7-90a7-8e2b0c161e55"
             alt=""
             className="w-full h-full"
           />
@@ -39,26 +39,14 @@ const Invest = () => {
               </div>
             </div>
             <h1 className="mt-2 text-secondary dark:text-slate-300">
-              People Successfull Getting Homes
+              People had great experience with us
             </h1>
           </div>
           <div>
             <h1 className="text-2xl font-semibold">
-              You invest in the apartment of your choice
+              You get to explore the tourist attractions of South India
             </h1>
-            <div className="mt-5 flex-align-center gap-x-3">
-              <div className="px-3 py-2 bg-white rounded-lg flex-align-center gap-x-2 dark:bg-dark-light ">
-                <FiHome className="text-slate-700 dark:text-slate-300" />
-                <input
-                  type="text"
-                  className="bg-transparent outline-none text-slate-700 dark:text-slate-300"
-                  placeholder="Find your nicr home..."
-                />
-              </div>
-              <button className="px-2 py-2 rounded-md btn-primary">
-                <FiArrowRight />
-              </button>
-            </div>
+            
           </div>
         </div>
       </div>

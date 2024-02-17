@@ -5,7 +5,6 @@ const Contact = () => {
     <div className="pt-20 px-[3%] md:px-[6%]">
       <Map />
       <ContactInfo />
-      <Form />
     </div>
   );
 };

@@ -20,14 +20,13 @@ const Home = () => {
       <Hero />
       <Filters />
       <Invest />
-      <Speciality />
+      <div id='aboutUs' className="pt-12 md:pt-16">
+        <Speciality />
+      </div>
       <Services />
-      <Featured />
       <Counter />
       <Projects />
-      <Testimonial />
-      <Brands />
-      <Feeds />
+      
     </div>
   );
 };

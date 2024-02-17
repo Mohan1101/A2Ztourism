@@ -3,21 +3,20 @@ import { NewsLetter } from "../components/services";
 
 const Faqs = () => {
   return (
-    <div className="pt-20 px-[3%] md:px-[6%]">
-      <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
-        <div className="md:col-span-2">
+    <div className="py-4 px-[1%]">
+      <div className="flex flex-col items-center md:flex md:flex-row items-center justify-center gap-8">
+      <div className="">
+        
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/faq.png?alt=media&token=c7b11e35-1e20-4627-84a6-b9ecb1b276a7"
+          alt=""
+          className="rounded-lg w-full md:w-[1600px] md:h-[400px] object-cover"
+        />
+    </div>
+        <div >
           <FaqsList />
         </div>
-        <div className="md:col-span-1">
-          <NewsLetter />
-          <div className="mt-5">
-            <img
-              src="/images/property (19).jpg"
-              alt=""
-              className="sm:h-[400px] object-cover"
-            />
-          </div>
-        </div>
+       
       </div>
     </div>
   );

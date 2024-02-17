@@ -4,6 +4,8 @@ import { FiDelete, FiMoon, FiSun } from "react-icons/fi";
 import { BiSearch, BiMenu, BiUser, BiBuildingHouse } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { MdOutlineTravelExplore, MdEmail } from "react-icons/md";
+
 
 import {
   closeDropdown,
@@ -22,6 +24,13 @@ const Navbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const emailAddress = "mohanarul1976@gmail.com";
+
+  const handleContactClick = () => {
+    const gmailLink = `https://mail.google.com/mail/u/0/#inbox?compose=new&to=${emailAddress}`;
+    window.location.href = gmailLink;
+  };
+
 
   // Dark mode toggle
   const handleDarkMode = () => {
@@ -52,13 +61,33 @@ const Navbar = () => {
 
   return (
     <div
-      className="navbar h-[45px] fixed w-full z-20 top-0 left-0 px-[2%]  md:px-[6%] flex-center-between py-[0.35rem] bg-white/60 border-b backdrop-blur-sm dark:border-dark dark:bg-card-dark/60"
+      className="navbar h-[45px] md:h-[55px] fixed w-full z-20 top-0 left-0 px-[2%]  md:px-[6%] flex-center-between py-[0.35rem] bg-white/60 border-b backdrop-blur-sm dark:border-dark dark:bg-card-dark/60"
       onMouseOver={handleClose}
     >
-      <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
-        <BiBuildingHouse className="text-3xl text-primary" />
-        <h1 className="hidden md:block">MartVilla</h1>
+     <div className="flex items-center gap-4">
+     <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
+        <div className="flex items-center">
+        <img src="/images/A2Zlogo-2.png" alt="logo" className="h-10 py-0 md:py-2 md:h-16" />
+        {/* <img src="/images/A2Zlogo-1.png" alt="logo" className="-ml-4  h-10" /> */}
+        </div>
       </Link>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ajmira@a2ztourism.co.in" target="_blank" className="hidden md:block">
+      <div className="flex-shrink-0 flex-align-center gap-x-1"  style={{ cursor: 'pointer' }}>
+      <MdEmail className="text-3xl text-primary" />
+     <h1 className="">ajmira@a2ztourism.co.in</h1>
+      
+    </div>
+    </a>
+   
+   
+    <a href="mailto:ajmira@a2ztourism.co.in" target="_blank" className="block md:hidden">
+      <div className="flex-shrink-0 flex-align-center gap-x-1"  style={{ cursor: 'pointer' }}>
+      <MdEmail className="text-3xl text-primary" />
+     <h1 className="">Contact Us</h1>
+      
+    </div>
+    </a>
+     </div>
 
       <div className="flex-align-center gap-x-4">
         {/*-------------------------------------- Desktop Menu------------------------------------- */}
@@ -121,34 +150,7 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-2 flex-align-center">
-          {/*----------------------------- search Bar----------------------------------------------------- */}
-          <form onSubmit={handleSubmit}>
-            <div
-              className={`flex-align-center relative h-9 w-9 transition-a  border-slate-300 dark:border-dark rounded-full ${
-                showSearchBar &&
-                "!w-[150px] md:!w-[200px] border bg-transparent text-inherit"
-              }`}
-            >
-              <input
-                type="search"
-                className={`outline-none border-none h-0 w-0 bg-transparent ${
-                  showSearchBar && "!w-full !h-full px-4"
-                }`}
-                placeholder="search..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-              />
-              <span
-                className={`grid flex-shrink-0 rounded-full w-9 h-9 place-items-center text-white bg-primary sm:cursor-pointer ${
-                  showSearchBar &&
-                  "bg-transparent hover:bg-slate-100 text-inherit sm:cursor-pointer dark:hover:bg-hover-color-dark"
-                }`}
-                onClick={() => setShowSearchBar(!showSearchBar)}
-              >
-                <BiSearch className="text-muted" />
-              </span>
-            </div>
-          </form>
+          
 
           {/*----------------------------- Dark mode toggle-------------------------------------------------- */}
           <div
@@ -158,9 +160,9 @@ const Navbar = () => {
             {darkMode ? <FiSun /> : <FiMoon />}
           </div>
           {/*----------------------------- Profile Icon-------------------------------------------------- */}
-          <div className="bg-white shadow-md icon-box dark:bg-dark-light hover:shadow-lg hover:bg-transparent">
+          {/* <div className="bg-white shadow-md icon-box dark:bg-dark-light hover:shadow-lg hover:bg-transparent">
             <BiUser />
-          </div>
+          </div> */}
           {/*------------------------------- Mobile Menu Toogle------------------------- */}
           <div
             className="icon-box md:hidden"

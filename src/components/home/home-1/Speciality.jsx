@@ -1,66 +1,73 @@
-import { FiCheck, FiLayers, FiUsers } from "react-icons/fi";
+import { FiCheck, FiLayers, FiUsers, FiInfo } from "react-icons/fi";
+import { Link } from "react-router-dom";
+
 
 const Speciality = () => {
   return (
-    <div className="pt-10 pb-16">
+    <div className="pb-16">
       <div className="flex flex-wrap gap-10">
         <div className="flex-1 basis-[20rem]">
           <h1 className="sub-heading">about us</h1>
-          <h1 className="heading">we specialize in quality home renovations</h1>
+          <h1 className="heading">we specialize in Bengali tourist visiting South India</h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum
-            earum saepe quibusdam, temporibus aut sapiente, ea alias libero,
-            ipsam perferendis. Consectetur maiores, dicta, earum eaque facilis
-            adipisci dignissimos optio fuga officia itaque quo impedit.
+
+            We strive to make our offerings distinct and indispensable for our Bengali travellers. Our tailor-made itineraries are unique and based on your exact tastes.
+
           </p>
           <div className="mt-4">
             <div className="flex-align-center gap-x-2">
               <div className="icon-box text-primary !bg-primary/20">
-                <FiCheck />
+                <FiInfo />
               </div>
-              <p>Outstanding Property</p>
+              <p>Tailored South Indian Experiences</p>
+
+            </div>
+            <div className="mt-2 flex-align-center gap-x-2">
+              <div className="icon-box text-primary !bg-primary/20">
+                <FiInfo />
+              </div>
+              <p>Adventure, Relaxation, Cultural Exploration</p>
             </div>
             <div className="mt-2 flex-align-center gap-x-2">
               <div className="icon-box text-primary !bg-primary/20">
                 <FiCheck />
               </div>
-              <p>Professional and experienced human resource</p>
+              <p>Unforgettable Memories Await</p>
             </div>
             <div className="mt-2 flex-align-center gap-x-2">
               <div className="icon-box text-primary !bg-primary/20">
                 <FiCheck />
               </div>
-              <p>Provide the best services for users</p>
+              <p>Your Perfect Bengali Getaway</p>
             </div>
-            <div className="mt-2 flex-align-center gap-x-2">
-              <div className="icon-box text-primary !bg-primary/20">
-                <FiCheck />
-              </div>
-              <p>Modern city locations and exceptional lifestyle</p>
-            </div>
-            <button className="mt-4 btn btn-primary">read more</button>
+            <Link to='/about-us' type="button" className="border border-primary border-2 mt-4 text-primary bg-white rounded-lg text-lg md:text-2xl px-5 py-2 text-center inline-flex items-center dark:bg-transparent hover:shadow-lg hover:bg-primary hover:text-white">
+              Read More
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </Link>
           </div>
         </div>
         <div className="flex-1 basis-[20rem]">
           <div className="relative">
             <img
-              src="/images/property (5).jpg"
+              src="/images/speciality-1.jpg"
               alt=""
               className="rounded-lg w-full sm:h-[400px] object-cover"
             />
-            <div className="absolute -bottom-10 sm:bottom-5 -left-2 md:-left-20">
+            <div className="hidden lg:absolute lg:block  bottom-12  -left-24 ">
               <div className="p-3 bg-white rounded-lg shadow-md w-72 flex-center-between gap-x-3 dark:bg-dark-light">
-                <h1>We have been serving our customers for over 70 years</h1>
+                <h1>Kerala's Theyyam explodes with life. Red costumes, fierce masks, spirits dance.</h1>
                 <div className="icon-box text-primary !bg-primary/20">
-                  <FiUsers />
+                  <FiInfo />
                 </div>
               </div>
               <div className="p-3 mt-4 ml-8 bg-white rounded-lg shadow-md w-72 flex-center-between gap-x-3 dark:bg-dark-light">
                 <h1>
-                  Working with the symbol and reputation of trustworthy trait
+                  Ancient ritual reimagined, stories told for generations.
                 </h1>
                 <div className="icon-box text-primary !bg-primary/20">
-                  <FiLayers />
+                  <FiInfo />
                 </div>
               </div>
             </div>

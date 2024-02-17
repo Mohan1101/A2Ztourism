@@ -6,7 +6,7 @@ const Services = () => {
       <div className="text-center">
         <h1 className="mx-auto sub-heading">services</h1>
         <h1 className="heading">
-          specialists services provided in this apartment building
+        Tailored Services for Your Perfect Getaway
         </h1>
       </div>
       <div className="grid grid-cols-1 gap-4 mt-5 sm:grid-cols-2 md:grid-cols-3">
