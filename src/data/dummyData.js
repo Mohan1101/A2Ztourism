@@ -234,7 +234,87 @@ export const Tamilnaducategories = [
   },
   
 ];
- 
+
+export const NortheastCategories = [
+  {
+    id: 0,
+    name: "Gangtok",
+    number: "Sikkim",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2Fgankot.png?alt=media&token=08b5846e-5646-4665-a2ca-f884d49a05c8",
+  },
+  {
+    id: 1,
+    name: "Darjeeling",
+    number: "West Bengal",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling.png?alt=media&token=91f862bd-15d5-4fcb-8014-11197112faed",
+  },
+  {
+    id: 2,
+    name: "Pelling",
+    number: "Sikkim",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FPelling.png?alt=media&token=63c70862-0f93-43e9-9bb9-e43ce22abc84",
+  },
+  {
+    id: 3,
+    name: "Kalimpong",
+    number: "West Bengal",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FKalimpong.png?alt=media&token=e383b985-88d9-4e10-af4b-cf3794813ab2",
+  },
+  {
+    id: 4,
+    name: "Shillong",
+    number: "Meghalaya",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong.png?alt=media&token=5c42f9cf-ba3a-4584-b7ff-02a17ab592b4",
+  },
+  {
+    id: 5,
+    name: "Guwahati",
+    number: "Assam",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FGuwahati.png?alt=media&token=b009874c-a491-4e16-bfcc-9a7bb9a233f3",
+  },
+];
+
+export const SrilankaCategories = [
+  {
+    id: 0,
+    name: "Colombo",
+    number: "Sri Lanka",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_City.png?alt=media&token=a3c8527b-835a-4156-ad20-7169f9a7d962",
+  },
+  {
+    id: 1,
+    name: "Kandy",
+    number: "Sri Lanka",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FKandy_Town_and_Bazaar.png?alt=media&token=dcfdcb7e-6ded-4a48-a4f5-98e6a3987440",
+  },
+  {
+    id: 2,
+    name: "Nuwara Eliya",
+    number: "Sri Lanka",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FNuwara_Eliya_Tea_Plantation.png?alt=media&token=36722792-ea75-4cc3-b61c-1a3b9308d6a0",
+  },
+  {
+    id: 3,
+    name: "Bentota",
+    number: "Sri Lanka",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FBentota_River_Safari.png?alt=media&token=b01572be-8323-4bcf-bd0f-81468f01af64",
+  },
+  {
+    id: 4,
+    name: "Colombo Folk Art Center",
+    number: "Sri Lanka",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Folk_Art_Centre..png?alt=media&token=d47e59d1-fbf3-408d-8323-da5f1019dbcc",
+  },
+  {
+    id: 5,
+    name: "Pinnawela Elephant Orphanage",
+    number: "Sri Lanka",
+    image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FPinnawela_Elephant_Orphanage.png?alt=media&token=4b7c1b41-ed47-483f-8fc5-1dd29f452a05",
+  },
+];
+
+
+
 
 
 
@@ -447,28 +527,6 @@ export const contentTamilnadu7 = [
 ];
 
 
-
-
-export const Tamilnaducategory = [
-  {
-    title: "Temple Delights",
-    subtitle: "Explore the Spiritual Heart of South India",
-    content:
-      "Embark on a journey through Tamil Nadu, renowned for its majestic temples and rich cultural heritage. Immerse yourself in the vibrant religious practices and ancient traditions at Madurai Meenakshi Amman Temple and more. Witness the intricate architecture, awe-inspiring sculptures, and captivating rituals that have captivated millions for centuries.",
-  },
- 
-];
-
-export const Keralacategory = [
-  {
-    title:"Popular Places",
-    subtitle: "Explore The Best Destinations Around Kerala",
-    
-    content: "Embark on a journey through the enchanting landscapes of Kerala, where tradition meets tranquility. Explore the bustling streets of Cochin, wander amidst the lush tea plantations in Munnar, experience the wildlife wonders of Thekkady, cruise along the serene backwaters of Alleppey, unwind on the pristine beaches of Kovalam, immerse in the rich culture of Trivandrum and much more.",
-  }
-]
-
-
 export const contents1 = [
   {
     title: "COCHIN / MUNNAR / THEKKADY (3 Nights / 4 Days)",
@@ -659,6 +717,259 @@ export const contents6 = [
   },
 ];
 
+export const contentNortheast1 = [
+  {
+    title: "DARJEELING / GANGTOK (05 Nights / 06 Days)",
+    subtitle: "Day 01: New Jalpaiguri / Bagdogra – Gangtok",
+    content: "Meet & greet with our representative at NJP Railway station / Bagdogra Airport & transfer to Gangtok. On arrival check-in to the hotel. In the evening, you can visit the local market or nearby area (at your own). Overnight at the hotel."
+  },
+  {
+    subtitle: "Day 02: Full day Lake & Baba Mandir Excursion Trip",
+    content: "After breakfast, drive to Tsomgo Lake (Alt 12000ft/3600M), a high altitude alpine lake close to the Indo-China Border. Enjoy playing in the snow and try Yak Ride and proceed further to Legendary Baba Harbhajan Singh Mandir. Back to Hotel. Night stay at Gangtok hotel."
+  },
+  {
+    subtitle: "Day 03: Gangtok Local Sightseeing",
+    content: "After Breakfast Proceed for Gangtok local Sightseeing. You will be visiting Do-Drul Chorten, Tibetology, Handicraft Centre, Bakthang Falls, Flower Show, Tashi View Point, Ganesh Tok and Lhasa waterfall. Overnight stay at Gangtok."
+  },
+  {
+    subtitle: "Day 04: Gangtok - Darjeeling",
+    content: "After breakfast transfer to Darjeeling 'The Queen of Hills', check-in the hotel. In the evening, you can visit the local market or nearby area on your own. Overnight stay will be at Darjeeling."
+  },
+  {
+    subtitle: "Day 05: Darjeeling Sightseeing",
+    content: "Early Morning (at 04.00 am) visit Tiger hill to watch the spectacular sunrise over Mt. Kangchenjunga (28,208 ft. world's 3rd highest peak), on your way back visit Ghoom Monastery, Batasia Loop. After breakfast visit Himalayan Mountaineering Institute, P. N. Zoological Park (Thursday closed), Tenzing Rock, Tibetan Refugee self-help Centre, Tea Garden, Peace Pagoda, Japanese Temple. Overnight stay at Darjeeling."
+  },
+  {
+    subtitle: "Day 06: Departure from Darjeeling + Toy Train",
+    content: "Transfer to Bagdogra airport / Njp Railway station & proceed journey with sweet memories."
+  }
+];
+export const contentNortheast2 = [
+  {
+    title: "GANGTOK / KALIMPONG / DARJEELING (06 Nights / 07 Days)",
+    subtitle: "Day 1: New Jalpaiguri Rly Station / IXB Airport – Gangtok",
+    content: "After arrival meet & greet at NJP Railway Station / IXB Airport & transfer to Gangtok. On arrival check-in to the hotel. In the evening, you can visit the local market or nearby area on your own. Overnight stay at Gangtok."
+  },
+  {
+    subtitle: "Day 2: Full day Lake & Baba Mandir Excursion Trip",
+    content: "After breakfast drive to Tsomgo Lake (Alt 12000ft/3600M), a high altitude alpine lake close to Indo-China Border. Enjoy playing in snow and try Yak Ride and proceed further to Legendary Baba Harbhajan Singh Mandir. Back to Hotel. Night stay at Gangtok hotel. Optional Tour to Nathula Pass (14000 ft/4200 M) on China Border can be arranged (except Monday, Tuesday) for Indians only with 30 days advance request at an additional cost. Return to the hotel. Overnight stay at Gangtok."
+  },
+  {
+    subtitle: "Day 3: Gangtok Local Sightseeing",
+    content: "After Breakfast Proceed for Gangtok local Sightseeing. You will be visiting Do-Drul Chorten, Tibetology, Handicraft Centre, Bakthang Falls, Flower Show, Tashi View Point, Ganesh Tok and Lhasa waterfall. Overnight stay at Gangtok."
+  },
+  {
+    subtitle: "Day 4: Gangtok – Kalimpong",
+    content: "After breakfast check out from the hotel & proceed for Kalimpong. Check-in & rest. In the evening, you can visit the local market or nearby area on your own. Overnight at the hotel."
+  },
+  {
+    subtitle: "Day 5: Kalimpong Local + Darjeeling",
+    content: "After Breakfast enjoy a tour of Kalimpong Visiting Mangal Dham, Deolo Hill, Dr. Graham’s Home, Golf Garden, Durpin Dara Hills & Pine View Nursery etc. Then transfer to Darjeeling. Overnight Stay at Darjeeling."
+  },
+  {
+    subtitle: "Day 6: Darjeeling Sightseeing",
+    content: "Early Morning (at 04.00 am) visit Tiger hill to watch the spectacular sunrise over Mt. Kangchenjunga (28,208 ft. world's third-highest peak), on your way back visit Ghoom Monastery, Batasia Loop. After breakfast visit Himalayan Mountaineering Institute, P. N. Zoological Park (Thursday closed), Tenzing Rock, Tibetan Refugee self-help Centre, Tea Garden, Peace Pagoda, Japanese Temple. Overnight stay at Darjeeling."
+  },
+  {
+    subtitle: "Day 7: Departure from Darjeeling + Toy Train",
+    content: "After breakfast transfer to Bagdogra airport / NJP Railway station & proceed journey with sweet memories."
+  }
+];
+export const contentNortheast3 = [
+  {
+    title: "GANGTOK / PELLING / KALIMPONG / DARJEELING (07 Nights / 08 Days)",
+    subtitle: "Day 1: New Jalpaiguri Rly Station / IXB Airport – Gangtok",
+    content: "After arrival, meet & greet at NJP Railway Station / IXB Airport & transfer to Gangtok. On arrival, check-in to the hotel. In the evening, you can visit the local market or nearby area on your own. Overnight stay at Gangtok."
+  },
+  {
+    subtitle: "Day 2: Full day Lake and Baba Mandir Excursion Trip",
+    content: "After breakfast drive to Tsomgo Lake (Alt 12000ft/3600M), a high altitude alpine lake close to Indo-China Border. Enjoy playing in the snow and try Yak Ride and proceed further to Legendary Baba Harbhajan Singh Mandir. Return to the Hotel. Night stay at Gangtok hotel. Tour to Nathula Pass (14000 ft / 4200 M) on China Border can be arranged (except Monday, Tuesday) for Indians only with 30 days advance request at an additional cost. Return to the hotel. Overnight stay at Gangtok."
+  },
+  {
+    subtitle: "Day 3: Gangtok to Pelling Departure",
+    content: "After breakfast transfer for Pelling. Pelling is famous for the magnificent view of the snow-capped mountains of Kanchenjunga. Placid Pelling pulls most of the visitors for its representative status in history, nature, and culture of the state. Situated at an altitude of 6,800 ft, including the Koktang, Kumbhakarna, Rathong, Kabru, Dom, Khangchendzonga, Pandim, Zopuno, Shimbho, Narsing, Siniyalchu and others. Pelling gives spectacular views of Mount Kanchenjunga. On arrival Check-in at the Hotel. Overnight Stay will be at Pelling."
+  },
+  {
+    subtitle: "Day 4: Pelling Sightseeing",
+    content: "After breakfast start for full day sightseeing and visit Kanchenjunga waterfalls, Sewaro Rock Garden, Rimbi water Falls & Khachoedpalri Lake, Rabdentse Ruins, Pemayangtse Monastery, Helipad Ground. Overnight stay will be at Pelling."
+  },
+  {
+    subtitle: "Day 5: Pelling – Kalimpong",
+    content: "After breakfast check out from the hotel & proceed to Kalimpong. Check-in & rest. In the evening, you can visit the local market or nearby area on your own. Overnight at the hotel."
+  },
+  {
+    subtitle: "Day 6: Kalimpong Local + Darjeeling",
+    content: "After Breakfast enjoy a tour of Kalimpong Visiting Mangal Dham, Deolo Hill, Dr. Graham’s Home, Golf Garden, Durpin Dara Hills & Pine View Nursery etc. Then transfer to Darjeeling 'The Queen of Hills'. Overnight Stay at Darjeeling."
+  },
+  {
+    subtitle: "Day 7: Darjeeling Sightseeing",
+    content: "Early Morning (at 04.00 am) visit Tiger hill to watch the spectacular sunrise over Mt. Kangchenjunga (28,208 ft. world's third highest peak), on your way back visit Ghoom Monastery, Batasia Loop. After breakfast visit Himalayan Mountaineering Institute, P. N. Zoological Park (Thursday closed), Tenzing Rock, Tibetan Refugee self-help Centre, Tea Garden, Peace Pagoda, Japanese Temple. Overnight stay at Darjeeling."
+  },
+  {
+    subtitle: "Day 8: Departure from Darjeeling",
+    content: "After Breakfast transfer to Bagdogra airport / NJP Railway station & proceed with sweet memories."
+  }
+];
+export const contentNortheast4 = [
+  {
+    title: "SHILLONG (03 Nights / 04 Days)",
+    subtitle: "Day 1: Arrive / Guwahati / Shillong",
+    content: "Arrive at Guwahati airport and drive to Shillong (140 kms / 4 hrs drive approx). Check-in at the hotel. Overnight in Shillong."
+  },
+  {
+    subtitle: "Day 2: Cherrpunjee Tour",
+    content: "After breakfast, excursion to Cherrapunjee (60 kms / 2 hrs drive approx). Overnight in Shillong."
+  },
+  {
+    subtitle: "Day 3: Shillong Sightseeing",
+    content: "Enjoy local sightseeing in Shillong covering Ward’s Lake, Don Bosco Church, Shillong Peak, Elephant Falls, and the local market (closed on Sundays). Overnight in Shillong."
+  },
+  {
+    subtitle: "Day 4: Shillong / Guwahati / Departure",
+    content: "After breakfast, drive to Guwahati airport for the return journey with sweet memories."
+  }
+];
+export const contentNortheast5 = [
+  {
+    title: "GUWAHATI / SHILLONG (04 Nights / 05 Days)",
+    subtitle: "Day 1: Arrive / Guwahati",
+    content: "Arrive at Guwahati airport and transfer to the hotel. Later, visit Kamakhya temple & Sankardev Kalakhetra. Overnight in Guwahati."
+  },
+  {
+    subtitle: "Day 2: Guwahati / Shillong",
+    content: "After breakfast, enjoy local sightseeing in Guwahati. In the afternoon, drive to Shillong (120 kms / 3 ½ hrs drive approx). Check-in at the hotel. Overnight in Shillong."
+  },
+  {
+    subtitle: "Day 3: Visit Cherrapunjee",
+    content: "After breakfast, excursion to Cherrapunjee (60 kms / 2 hrs drive approx). Overnight in Shillong."
+  },
+  {
+    subtitle: "Day 4: Shillong Sightseeing",
+    content: "Explore local sightseeing in Shillong covering Ward’s Lake, Don Bosco Church, Shillong Peak, Elephant Falls, and the local market (closed on Sundays). Overnight in Shillong."
+  },
+  {
+    subtitle: "Day 5: Shillong / Guwahati / Departure",
+    content: "After breakfast, drive to Guwahati airport for the return journey with sweet memories."
+  }
+];
+
+
+export const contentSriLanka1 = [
+  {
+    title: "GLIMPSES OF SRI LANKA (03 Nights / 04 days)",
+    subtitle: "Day 01: Arrive / Colombo / Kandy",
+    content: "Upon arrival in Colombo, you will be met by our representative who will drive you to Kandy. En-route, visit Pinnawela Elephant Orphanage, established in 1975. The rest of the day is free at leisure. Overnight in Kandy."
+  },
+  {
+    subtitle: "Day 02: Kandy Sightseeing",
+    content: "After breakfast, enjoy a tour of Kandy including a visit to Peradeniya Botanical Garden, Kandy town and bazaar, the arts and crafts centre, a gem museum, and the Temple of the Tooth Relic. In the evening, witness a cultural show. Overnight in Kandy."
+  },
+  {
+    subtitle: "Day 03: Kandy / Colombo – Sightseeing",
+    content: "Proceed to Colombo and check in to your hotel. Enjoy a sightseeing tour of Colombo, visiting Buddhist and Hindu Temples, Pettah, Fort, Bandaranaike Memorial International Conference Hall, Colombo Museum, the parliament house, and the folk art centre. Later, enjoy shopping in Colombo. Overnight in Colombo."
+  },
+  {
+    subtitle: "Day 04: Colombo / Departure",
+    content: "Transfer to Colombo Airport for your flight back home with sweet memories."
+  }
+];
+
+export const contentSriLanka2 = [
+  {
+    title: "HILLS AND BEACHES OF SRI LANKA (05 Nights / 06 Days)",
+    subtitle: "Day 01: Arrive / Colombo",
+    content: "Upon arrival in Colombo, you will be met by our representative who will drive you to Colombo. Enjoy a city tour of Colombo, visiting Buddhist and Hindu Temples, Pettah, Fort, Bandaranaike Memorial International Conference Hall, Colombo Museum, the parliament house, and the folk art center. Later, enjoy shopping in Colombo. Overnight in Colombo."
+  },
+  {
+    subtitle: "Day 02: Colombo / Kandy",
+    content: "Today morning, proceed to Kandy via Pinnawala. Visit Pinnawela Elephant Orphanage, established in 1975. Later, enjoy a sightseeing tour of Kandy, visiting Peradeniya Botanical Garden, Kandy town and bazaar, the arts and crafts centre, a gem museum, and the Temple of the Tooth Relic. In the evening, witness a cultural show. Overnight in Kandy."
+  },
+  {
+    subtitle: "Day 03: Kandy / Nuwara Eliya",
+    content: "Proceed to Nuwara Eliya. Take a tour to the cold and misty hills, and visit a tea factory to learn about the processing of Ceylon Tea. End your day with a cup of pure Ceylon Tea. Overnight in Nuwara Eliya."
+  },
+  {
+    subtitle: "Day 04: Nuwara Eliya / Bentota",
+    content: "Travel to Bentota via Kitulgala, known for the filming location of the Oscar-winning film 'Bridge on the River Kwai'. Enjoy leisure time upon arrival. Overnight in Bentota."
+  },
+  {
+    subtitle: "Day 05: Bentota",
+    content: "Enjoy a day at leisure in Bentota, or take an optional trip to Balapitiya for a River Safari. Experience day-to-day activities of villagers on the Madu river during a two-hour boat trip. Overnight in Bentota."
+  },
+  {
+    subtitle: "Day 06: Bentota / Colombo / Departure",
+    content: "Transfer to Colombo Airport for your flight back home with sweet memories."
+  }
+];
+
+export const contentSriLanka3 = [
+  {
+    title: "HERITAGE TOUR OF SRI LANKA (06 Nights / 07 Days)",
+    subtitle: "Day 01: Arrive / Colombo:",
+    content: "Upon arrival in Colombo, you will be met by our representative or guide who will drive you to Colombo. Enjoy a city tour of Colombo, visiting Buddhist and Hindu Temples, Pettah, Fort, Bandaranaike Memorial International Conference Hall, Colombo Museum, the parliament house, and the folk art centre. Later, enjoy shopping in Colombo. Overnight in Colombo."
+  },
+  {
+    subtitle: "Day 02: Colombo / Dambulla",
+    content: "Today morning, proceed to Dambulla via Pinnawala. Visit Pinnawela Elephant Orphanage, established in 1975. Overnight in Dambulla."
+  },
+  {
+    subtitle: "Day 03: Dambulla / Sigiriya / Habarana / Dambulla",
+    content: "Visit Dambulla’s famous cave temples and Sigiriya, a World Heritage Site. Enjoy an elephant back safari in Habarana. Return to Hotel and overnight in Dambulla."
+  },
+  {
+    subtitle: "Day 04: Dambulla / Kandy",
+    content: "Proceed to Kandy. Enjoy a sightseeing tour of Kandy, visiting Peradeniya Botanical Garden, Kandy town and bazaar, the arts and crafts centre, a gem museum, and the Temple of the Tooth Relic. Witness a cultural show. Overnight in Kandy."
+  },
+  {
+    subtitle: "DAY 05: Kandy / Bentota",
+    content: "Travel to Bentota. Enjoy leisure time. Overnight in Bentota."
+  },
+  {
+    subtitle: "DAY 06: Bentota",
+    content: "Enjoy a day at leisure in Bentota, or take an optional trip to Balapitiya for a River Safari. Experience day-to-day activities of villagers on the Madu river during a two-hour boat trip. Overnight in Bentota."
+  },
+  {
+    subtitle: "DAY 07: Bentota / Colombo / Departure",
+    content: "Transfer to Colombo Airport for your flight back home with sweet memories."
+  }
+];
+
+export const contentSriLanka4 = [
+  {
+    title: "RAMAYANA TOUR OF SRI LANKA (07 Nights / 08 Days)",
+    subtitle: "DAY 01: Arrive / Colombo / Chilaw / Anuradhapura",
+    content: "Upon arrival at Colombo airport, you will be picked up and transferred to Chilaw (1.5 Hrs). Visit Munneswaram Temple and Manavari Temple in Chilaw, significant sites in the Ramayana legend. Later, drive to Anuradhapura (3 Hrs). Overnight stay in Anuradhapura."
+  },
+  {
+    subtitle: "DAY 02: Anuradhapura / Trincomalee",
+    content: "After breakfast, explore the Anuradhapura Ancient City, a UNESCO World Heritage Site. Then, drive to Trincomalee. Visit Thirukoneswaram Temple and Lover’s Leap Trincomalee. Overnight stay in Trincomalee."
+  },
+  {
+    subtitle: "DAY 03: Trincomalee / Kandy – Enroute Dambulla Cave Temple",
+    content: "After breakfast, take an orientation tour of Trincomallee and drive to Kandy. Enroute, visit Dambulla Cave Temple. Check in to the hotel upon arrival in Kandy. Overnight stay in Kandy hotel."
+  },
+  {
+    subtitle: "DAY 04: Kandy Tour",
+    content: "Enjoy breakfast at the hotel and proceed for a tour of Kandy, including a visit to Tooth of Buddha Relic Temple and a Cultural dance performance. Overnight stay in Kandy."
+  },
+  {
+    subtitle: "DAY 05: Kandy to Nuwara Eliya",
+    content: "After breakfast, transfer to Nuwara Eliya. Enroute, visit Sri Bhaktha Hanuman Temple at Ramboda. Check in to the hotel upon arrival in Nuwara Eliya. Overnight stay in Nuwara Eliya."
+  },
+  {
+    subtitle: "DAY 06: Sita Amman Temple / Divrumpola Temple / Kataragama",
+    content: "After breakfast, visit Sita Amman Temple, Askoka Vatika, and Divurumpola Buddhist Temple in Nuwara Eliya. Then, drive to Kataragama, visiting Ravana Water Falls and Ravana Caves enroute. Overnight in Kataragama."
+  },
+  {
+    subtitle: "DAY 07: Kataragama Temple – Ussangoda Ramayana Site – Rumassala – Colombo",
+    content: "After breakfast, visit Kataragama Temple dedicated to the God Skanda. Drive for Colombo, visiting Ussangoda Ramayana Site and Rumassala. Explore Galle Dutch Fort enroute. Arrive in Colombo, check in to the hotel. Overnight stay in Colombo."
+  },
+  {
+    subtitle: "DAY 08: Colombo Departure",
+    content: "Enjoy breakfast at the hotel and proceed for a city tour of Colombo. Transfer to Colombo airport for your return flight with sweet memories."
+  }
+];
+
 
 export const Tamilnaduslides1 = [
   { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fmeenakshitemple.png?alt=media&token=133df665-98d4-4970-ac9c-bb1359320188", title: "Meenakshi Amman Temple" },
@@ -722,17 +1033,6 @@ export const Tamilnaduslides7 = [
 
 ];
 
-export const Filters = [
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fmarina-beach.png?alt=media&token=3ab5bc9e-88eb-4e7d-a04c-7c60ccfe2471", title: "Marina Beach" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Attukadu%20waterfalls.png?alt=media&token=b4c136cb-ce3a-4220-b02a-5415cdd0be1f", title: "Attukadu Waterfalls" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fmgr-memorial.png?alt=media&token=6c5ec8bb-672c-4a0d-b296-a8292e4c0171", title: "MGR Memorial" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/House%20Boat.png?alt=media&token=13293f3c-2277-4913-942c-6d2be8ff544d", title: "House Boat" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fpndicherry.png?alt=media&token=58f4a545-4789-41e2-a116-8e47e987ec38", title: "Pondicherry" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Tea-Museum.png?alt=media&token=80be75d0-2774-46f9-8d95-74a11d822b42", title: "Tea Museum" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/thiruvalluvar-statue-727594_1280.jpg?alt=media&token=9aedd8ba-99f6-47db-98c4-8c4413b1932c", title: "Kanyakumari" },
-  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Thekkady.png?alt=media&token=73561443-2488-4314-9890-6265e57a8a11", title: "Thekkady" },
-]
-
 
 export const slides1 = [
   { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Thekkady.png?alt=media&token=73561443-2488-4314-9890-6265e57a8a11", title: "Thekkady" },
@@ -784,6 +1084,164 @@ export const slides6 = [
 
 ];
 
+export const norteastslides1 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling.png?alt=media&token=91f862bd-15d5-4fcb-8014-11197112faed", title: "Darjeeling" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FBaba%20Mandir.png?alt=media&token=de838f21-166b-4342-96cd-67626db0f753", title: "Baba Mandir" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2Fgankot.png?alt=media&token=08b5846e-5646-4665-a2ca-f884d49a05c8", title: "Gangtok" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling%20%2B%20Toy%20Train.png?alt=media&token=2b1176f9-bf5a-4bf7-a433-c8ab8d67c7e3", title: "Darjeeling Toy Train" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling%20sightseeing.png?alt=media&token=983e10e6-7968-4038-bd25-894ccde08b45", title: "Darjeeling Sightseeing" },
+ 
+
+];
+
+export const norteastslides2 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2Fgankot.png?alt=media&token=08b5846e-5646-4665-a2ca-f884d49a05c8", title: "Gangtok" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FBaba%20Mandir.png?alt=media&token=de838f21-166b-4342-96cd-67626db0f753", title: "Baba Mandir" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FKalimpong.png?alt=media&token=e383b985-88d9-4e10-af4b-cf3794813ab2", title: "Kalimpong" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling%20%2B%20Toy%20Train.png?alt=media&token=2b1176f9-bf5a-4bf7-a433-c8ab8d67c7e3", title: "Darjeeling Toy Train" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling%20sightseeing.png?alt=media&token=983e10e6-7968-4038-bd25-894ccde08b45", title: "Darjeeling Sightseeing" },
+];
+
+export const norteastslides3 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2Fgankot.png?alt=media&token=08b5846e-5646-4665-a2ca-f884d49a05c8", title: "Gangtok" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FTsomgo%20Lake.png?alt=media&token=2da6b302-ab04-4639-9fbb-068835997144", title: "Tsomgo Lake" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FBaba%20Mandir.png?alt=media&token=de838f21-166b-4342-96cd-67626db0f753", title: "Baba Mandir" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FPelling.png?alt=media&token=63c70862-0f93-43e9-9bb9-e43ce22abc84", title: "Pelling" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FKalimpong.png?alt=media&token=e383b985-88d9-4e10-af4b-cf3794813ab2", title: "Kalimpong" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDarjeeling.png?alt=media&token=91f862bd-15d5-4fcb-8014-11197112faed", title: "Darjeeling" },
+
+];
+
+export const norteastslides4 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FGuwahati.png?alt=media&token=b009874c-a491-4e16-bfcc-9a7bb9a233f3", title: "Guwahati" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FCherrapunjee.png?alt=media&token=da58f9da-4015-4723-bd96-450ddb2ff234", title: "Cherrapunjee" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Wards.png?alt=media&token=a4a18cf0-c082-40c7-bf5e-92c62c9f680b", title: "Shillong Wards" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDon_Bosco_Church_Shillong.png?alt=media&token=ce5a8427-f086-4ce0-bc0a-ae119f3b2de8", title: "Don Bosco Church" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Peak_View.png?alt=media&token=68054338-faa3-4a5e-8a3d-f4449f32ff00", title: "Shillong Peak View" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FElephant_Falls_Shillong.png?alt=media&token=8e5ffa38-53c9-489a-a666-a5bf84112e09", title: "Elephant Falls" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Local_Marke.png?alt=media&token=a6615783-84c5-4d72-bdc2-9d182cadbb8d", title: "Shillong Local Market" },
+];
+
+export const norteastslides5 = [
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FKamakhya_Temple_Guwahati.png?alt=media&token=c98963e5-1ef2-428d-8ecb-257c32715540", title: "Kamakhya Temple" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Local_Marke.png?alt=media&token=a6615783-84c5-4d72-bdc2-9d182cadbb8d", title: "Shillong Local Market" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FGuwahati.png?alt=media&token=b009874c-a491-4e16-bfcc-9a7bb9a233f3", title: "Guwahati" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FCherrapunjee.png?alt=media&token=da58f9da-4015-4723-bd96-450ddb2ff234", title: "Cherrapunjee" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Wards.png?alt=media&token=a4a18cf0-c082-40c7-bf5e-92c62c9f680b", title: "Shillong Wards" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FDon_Bosco_Church_Shillong.png?alt=media&token=ce5a8427-f086-4ce0-bc0a-ae119f3b2de8", title: "Don Bosco Church" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Peak_View.png?alt=media&token=68054338-faa3-4a5e-8a3d-f4449f32ff00", title: "Shillong Peak View" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FElephant_Falls_Shillong.png?alt=media&token=8e5ffa38-53c9-489a-a666-a5bf84112e09", title: "Elephant Falls" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/North%20East%20Tours%2FShillong_Local_Marke.png?alt=media&token=a6615783-84c5-4d72-bdc2-9d182cadbb8d", title: "Shillong Local Market" },
+];
+
+export const srilankaslides1 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FKandy_Town_and_Bazaar.png?alt=media&token=dcfdcb7e-6ded-4a48-a4f5-98e6a3987440", title: "Kandy Town and Bazaar" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FPinnawela_Elephant_Orphanage.png?alt=media&token=4b7c1b41-ed47-483f-8fc5-1dd29f452a05", title: "Pinnawela Elephant Orphanage" },
+  {image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FTemple_of_the_Tooth_Relic_Kandy.png?alt=media&token=7a2b8139-7883-4fb7-91e3-02aa7a12a207", title: "Temple of the Tooth Relic" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Museum.png?alt=media&token=c09a3dc7-94f6-48d8-a8be-beeab83631fc", title: "Colombo Museum" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Folk_Art_Centre..png?alt=media&token=d47e59d1-fbf3-408d-8323-da5f1019dbcc", title: "Colombo Folk Art Centre" },
+
+];
+
+export const srilankaslides2 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_City.png?alt=media&token=a3c8527b-835a-4156-ad20-7169f9a7d962", title: "Colombo City" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FPeradeniya_Botanical_Garden_Kandy.png?alt=media&token=fd42709d-d3c3-4ddc-bd63-81ff779f2ab5", title: "Peradeniya Botanical Garden" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FPinnawela_Elephant_Orphanage.png?alt=media&token=4b7c1b41-ed47-483f-8fc5-1dd29f452a05", title: "Pinnawela Elephant Orphanage" },
+  {image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FTemple_of_the_Tooth_Relic_Kandy.png?alt=media&token=7a2b8139-7883-4fb7-91e3-02aa7a12a207", title: "Temple of the Tooth Relic" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Museum.png?alt=media&token=c09a3dc7-94f6-48d8-a8be-beeab83631fc", title: "Colombo Museum" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Folk_Art_Centre..png?alt=media&token=d47e59d1-fbf3-408d-8323-da5f1019dbcc", title: "Colombo Folk Art Centre" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FBentota_Beach.png?alt=media&token=3cd5bf5c-cc26-4d03-bf6b-1569e7d0aae5", title: "Bentota Beach" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FBentota_River_Safari.png?alt=media&token=b01572be-8323-4bcf-bd0f-81468f01af64", title: "Bentota River Safari" },
+];
+
+export const srilankaslides3 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_City.png?alt=media&token=a3c8527b-835a-4156-ad20-7169f9a7d962", title: "Colombo City" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FPeradeniya_Botanical_Garden_Kandy.png?alt=media&token=fd42709d-d3c3-4ddc-bd63-81ff779f2ab5", title: "Peradeniya Botanical Garden" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FDambulla_Cave_Temples.png?alt=media&token=88280ee0-9a90-411a-92d9-3653bdd9557b", title: "Dambulla Cave Temples" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FHabarana_Elephant_Safari.png?alt=media&token=934c19f9-5c8f-403f-8709-65ea9b93ee1f", title: "Habarana Elephant Safari" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FSigiriya_Rock_Fortress..png?alt=media&token=7c936b3d-caa5-4f27-940e-755c99f332e4", title: "Sigiriya Rock Fortress" },
+  {image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FTemple_of_the_Tooth_Relic_Kandy.png?alt=media&token=7a2b8139-7883-4fb7-91e3-02aa7a12a207", title: "Temple of the Tooth Relic" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Museum.png?alt=media&token=c09a3dc7-94f6-48d8-a8be-beeab83631fc", title: "Colombo Museum" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_Folk_Art_Centre..png?alt=media&token=d47e59d1-fbf3-408d-8323-da5f1019dbcc", title: "Colombo Folk Art Centre" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FBentota_Beach.png?alt=media&token=3cd5bf5c-cc26-4d03-bf6b-1569e7d0aae5", title: "Bentota Beach" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FBentota_River_Safari.png?alt=media&token=b01572be-8323-4bcf-bd0f-81468f01af64", title: "Bentota River Safari" },
+];
+
+export const srilankaslides4 = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FMunneswaram_Temple_Chilaw.png?alt=media&token=768f30f8-dcec-46e5-90a8-17ecb3d471a7", title: "Munneswaram Temple" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FLover's_Leap_Trincomalee.png?alt=media&token=e74b6f1a-c61c-4fdc-a42d-97b32e34df92", title: "Lover's Leap" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FDambulla_Cave_Temples.png?alt=media&token=88280ee0-9a90-411a-92d9-3653bdd9557b", title: "Dambulla Cave Temples" },
+  {image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FTemple_of_the_Tooth_Relic_Kandy.png?alt=media&token=7a2b8139-7883-4fb7-91e3-02aa7a12a207", title: "Temple of the Tooth Relic" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FKandy_Cultural_Dance_Performance.png?alt=media&token=ff3f4568-8040-45b1-915b-0ae2f16e7136", title: "Kandy Cultural Dance" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FRavana_Water_Falls.png?alt=media&token=88ac0079-faad-4bb5-9d01-9c10c75596f7", title: "Ravana Water Falls" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FKataragama%20Temple%20.png?alt=media&token=b752450f-4874-4232-bbc8-2c23b11c6fe1", title: "Kataragama Temple" },
+
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FGalle_Dutch_Fort.png?alt=media&token=baeca214-1392-41aa-9c49-08d9d4e3a1ee", title: "Galle Dutch Fort" },
+  {image:"https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FThirukoneswaram_Temple_Trincomalee.png?alt=media&token=419ccbdb-3f10-40dd-b60b-08e49e8621ac", title: "Thirukoneswaram Temple" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Sri%20Lanka%20Tours%2FColombo_City.png?alt=media&token=a3c8527b-835a-4156-ad20-7169f9a7d962", title: "Colombo City" },
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const Tamilnaducategory = [
+  {
+    title: "Temple Delights",
+    subtitle: "Explore the Spiritual Heart of South India",
+    content:
+      "Embark on a journey through Tamil Nadu, renowned for its majestic temples and rich cultural heritage. Immerse yourself in the vibrant religious practices and ancient traditions at Madurai Meenakshi Amman Temple and more. Witness the intricate architecture, awe-inspiring sculptures, and captivating rituals that have captivated millions for centuries.",
+  },
+ 
+];
+
+export const Keralacategory = [
+  {
+    title:"Popular Places",
+    subtitle: "Explore The Best Destinations Around Kerala",
+    
+    content: "Embark on a journey through the enchanting landscapes of Kerala, where tradition meets tranquility. Explore the bustling streets of Cochin, wander amidst the lush tea plantations in Munnar, experience the wildlife wonders of Thekkady, cruise along the serene backwaters of Alleppey, unwind on the pristine beaches of Kovalam, immerse in the rich culture of Trivandrum and much more.",
+  }
+]
+
+export const Northeastcategory = [
+  {
+    title: "Northeast Wonders",
+    subtitle: "Discover The Hidden Gems of Northeast India",
+    content:
+      "Embark on a journey through the unexplored landscapes of Northeast India, where nature thrives in all its glory. Explore the picturesque hill stations of Gangtok, Darjeeling, and Pelling, experience the rich culture of Kalimpong, witness the cascading waterfalls of Shillong, explore the wildlife wonders of Guwahati, and much more.",
+  },
+];
+
+export const Srilankacategory = [
+  {
+    title: "Sri Lanka",
+    subtitle: "Discover The Pearl of the Indian Ocean",
+    content:
+      "Embark on a journey through the tropical paradise of Sri Lanka, where history, culture, and nature converge. Explore the ancient ruins of Anuradhapura, the sacred city of Kandy, the wildlife wonders of Yala National Park, the pristine beaches of Bentota, the colonial charm of Galle, and much more.",
+  },
+];
+
+export const Filters = [
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fmarina-beach.png?alt=media&token=3ab5bc9e-88eb-4e7d-a04c-7c60ccfe2471", title: "Marina Beach" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Attukadu%20waterfalls.png?alt=media&token=b4c136cb-ce3a-4220-b02a-5415cdd0be1f", title: "Attukadu Waterfalls" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fmgr-memorial.png?alt=media&token=6c5ec8bb-672c-4a0d-b296-a8292e4c0171", title: "MGR Memorial" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/House%20Boat.png?alt=media&token=13293f3c-2277-4913-942c-6d2be8ff544d", title: "House Boat" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/TamilNadu%2Fpndicherry.png?alt=media&token=58f4a545-4789-41e2-a116-8e47e987ec38", title: "Pondicherry" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Tea-Museum.png?alt=media&token=80be75d0-2774-46f9-8d95-74a11d822b42", title: "Tea Museum" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/thiruvalluvar-statue-727594_1280.jpg?alt=media&token=9aedd8ba-99f6-47db-98c4-8c4413b1932c", title: "Kanyakumari" },
+  { image: "https://firebasestorage.googleapis.com/v0/b/a2ztourism-e8dcb.appspot.com/o/Thekkady.png?alt=media&token=73561443-2488-4314-9890-6265e57a8a11", title: "Thekkady" },
+]
 
 
 export const socials = [

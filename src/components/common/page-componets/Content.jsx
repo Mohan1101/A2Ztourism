@@ -21,6 +21,7 @@ const Content = ({ slides, title, subtitle, content }) => {
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="relative h-[360px]">
+              <div className="absolute inset-0 bg-black bg-opacity-20  z-20"></div>
               <img
                 src={slide.image}
                 className="rounded-lg w-full h-full object-cover"

@@ -8,6 +8,8 @@ import {
   About,
   Services,
   ServicesTwo,
+  ServicesThree,
+  ServicesFour,
   Blog,
   Contact,
   PageNotFound,
@@ -57,6 +59,8 @@ function App() {
           <Route path="/destination" element={<Services />} />
           <Route path="/destination-1" element={<Services />} />
           <Route path="/destination-2" element={<ServicesTwo />} />
+          <Route path="/destination-3" element={<ServicesThree />} />
+          <Route path="/destination-4" element={<ServicesFour />} />
           <Route path="/what-we-do" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/home" element={<Home />} />

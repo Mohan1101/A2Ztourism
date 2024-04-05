@@ -27,6 +27,17 @@ export const navLinks = [
         linkText: "Kerala",
         url: "/destination-2",
       },
+      {
+        id: 2,
+        linkText: "North East Tour",
+        url: "/destination-3", 
+      },
+      {
+        id: 2,
+        linkText: "Sri Lanka Tour",
+        url: "/destination-4",
+      }
+
         
       
       
