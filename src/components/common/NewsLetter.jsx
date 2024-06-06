@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 const NewsLetter = () => {
   return (
     <div className="relative ">
-     <div className="flex bg-black opacity-60">
+     <div className="flex">
+     <div class="absolute inset-0 bg-black bg-opacity-30"></div>
   <img
     src="/images/contactus.png"
     alt=""

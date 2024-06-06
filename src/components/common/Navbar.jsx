@@ -61,7 +61,7 @@ const Navbar = () => {
 
   return (
     <div
-      className="navbar h-[45px] md:h-[55px] fixed w-full z-20 top-0 left-0 px-[2%]  md:px-[6%] flex-center-between py-[0.35rem] bg-white/60 border-b backdrop-blur-sm dark:border-dark dark:bg-card-dark/60"
+      className="pr-4 py-12 md:py-4 navbar h-[45px] md:h-[55px] fixed w-full z-20 top-0 left-0 px-[2%]  md:px-[6%] flex-center-between py-[0.35rem] bg-white/60 border-b backdrop-blur-sm dark:border-dark dark:bg-card-dark/60"
       onMouseOver={handleClose}
     >
      <div className="flex items-center gap-4">
